@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  resize: none;
+  width: 448px;
+  height: 120px;
+}
