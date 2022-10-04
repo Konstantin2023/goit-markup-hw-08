@@ -2,33 +2,18 @@
 
 .hero {
   @media screen and (min-width: 0px) and (max-width: 480px) {
-    background-color: $--brand-color;
     padding-top: 118px;
     padding-bottom: 118px;
-    text-align: center;
     max-width: 480px;
-    margin-left: auto;
-    margin-right: auto;
     background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)),
       url(../images/picture.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
 
 .hero__name {
   @media screen and (min-width: 0px) and (max-width: 480px) {
-    font-weight: 900;
     font-size: 26px;
     line-height: calc(42 / 26);
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: $--text-button-color;
-    margin-left: auto;
-    margin-right: auto;
     width: 360px;
-    margin-bottom: 30px;
   }
 }

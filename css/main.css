@@ -1836,34 +1836,19 @@ header {
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .hero {
-    background-color: #2f303a;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    text-align: center;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    max-width: 768px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(49, 48, 58, 0.4)), to(rgba(49, 48, 58, 0.4))), url(../images/picture.jpg);
     background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)), url(../images/picture.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .hero__name {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.3636363636;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-left: auto;
-    margin-right: auto;
-    width: 696px;
-    margin-bottom: 30px;
+    font-size: 26px;
+    line-height: 1.6153846154;
+    width: 360px;
   }
 }
 
@@ -2751,34 +2736,19 @@ header {
 
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .hero {
-    background-color: #2f303a;
     padding-top: 118px;
     padding-bottom: 118px;
-    text-align: center;
     max-width: 480px;
-    margin-left: auto;
-    margin-right: auto;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(49, 48, 58, 0.4)), to(rgba(49, 48, 58, 0.4))), url(../images/picture.jpg);
     background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)), url(../images/picture.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
 
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .hero__name {
-    font-weight: 900;
     font-size: 26px;
     line-height: 1.6153846154;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-left: auto;
-    margin-right: auto;
     width: 360px;
-    margin-bottom: 30px;
   }
 }
 
