@@ -1,0 +1,182 @@
+@import '../../utils/vars';
+
+%footer {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+
+.footer {
+  background-color: $--brand-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer {
+  &__container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-family: $Raleway;
+    @extend %footer;
+    color: $--brand-color2;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  &__studio {
+    color: $--text-button-color;
+    font-family: $Raleway;
+    @extend %footer;
+  }
+
+  &__location {
+    margin-bottom: 9px;
+  }
+
+  &__link {
+    line-height: calc(24 / 14);
+    color: $--text-button-color;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+  }
+
+  &__mail {
+    margin-bottom: 9px;
+  }
+
+  &__email {
+    line-height: calc(24 / 14);
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__email:hover,
+  &__email:focus {
+    color: $--brand-color2;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &__tel {
+    font-family: $Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    transition-property: background-color color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__tel:hover,
+  &__tel:focus {
+    color: $--brand-color2;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &__wrapper {
+    padding-bottom: 30px;
+  }
+
+  &__accession {
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: $--text-button-color;
+    display: block;
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__social {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    fill: $--text-button-color;
+    background-color: rgba(255, 255, 255, 10%);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__social:focus,
+  &__social:hover {
+    fill: $--text-button-color;
+    background-color: $--brand-color2;
+  }
+
+  &__support {
+    margin-right: 0;
+  }
+
+  &__emails {
+    display: inline-block;
+  }
+
+  &__input {
+    height: 50px;
+    width: 358px;
+    border-radius: 4px;
+    background-color: $--brand-color;
+    color: $--text-button-color;
+    border: 1px solid $--text-cl2;
+    padding-left: 16px;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &__input:focus {
+    border: 1px solid $--brand-color2;
+    outline: transparent;
+  }
+
+  &__submit {
+    margin-left: 12px;
+  }
+
+  &__btn {
+    align-items: center;
+    display: flex;
+  }
+
+  &__airplane {
+    fill: $--text-button-color;
+    justify-items: center;
+    margin-left: 10px;
+  }
+}

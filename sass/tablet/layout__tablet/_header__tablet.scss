@@ -1,0 +1,217 @@
+@import '../../utils/vars';
+
+%header1 {
+  font-family: $Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+
+%header2 {
+  font-family: $Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: $--brand-color2;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 33px;
+}
+
+%after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: $--brand-color2;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 2px;
+}
+
+.header {
+  &__container {
+    display: flex;
+  }
+
+  &__logo {
+    @extend %header1;
+    color: $--brand-color2;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 93px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__span {
+    color: $--text-cl;
+    @extend %header1;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
+
+  &__contacts,
+  &__list {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__studio--actively {
+    @extend %header2;
+  }
+
+  &__studio--actively::after {
+    @extend %after;
+  }
+
+  &__portfolio--actively {
+    @extend %header2;
+  }
+
+  &__portfolio--actively::after {
+    @extend %after;
+  }
+
+  &__studio {
+    font-family: $Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: $--text-cl;
+    cursor: pointer;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__studio:hover,
+  &__studio:focus {
+    color: $--brand-color2;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &__portfolio {
+    font-weight: 500;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: $--text-cl;
+    cursor: pointer;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__portfolio:hover,
+  &__portfolio:focus {
+    color: $--brand-color2;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &__contact {
+    font-family: $Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: $--text-cl;
+    cursor: pointer;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__contact:hover,
+  &__contact:focus {
+    color: $--brand-color2;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &__contacts {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+  }
+
+  &__email {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: $--text-cl2;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__email:hover,
+  &__email:focus {
+    color: $--brand-color2;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &__envelope {
+    fill: currentColor;
+  }
+
+  &__envelope:hover,
+  &__envelope:focus {
+    fill: $--brand-color2;
+  }
+
+  &__tel {
+    text-decoration: none;
+    list-style: none;
+    font-family: $Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: $--text-cl2;
+    display: flex;
+    gap: 10px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__tel:hover,
+  &__tel:focus {
+    color: $--brand-color2;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &__smartphone {
+    fill: currentColor;
+  }
+
+  &__smartphone:hover,
+  &__smartphone:focus {
+    fill: $--brand-color2;
+  }
+}
