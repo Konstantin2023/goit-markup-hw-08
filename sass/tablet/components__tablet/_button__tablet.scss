@@ -1,18 +1,20 @@
 @import '../../utils/vars';
 
 .button {
-  background-color: $--brand-color2;
-  color: $--text-button-color;
-  cursor: pointer;
-  font-family: $Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 32px;
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    background-color: $--brand-color2;
+    color: $--text-button-color;
+    cursor: pointer;
+    font-family: $Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 32px;
+  }
 }
