@@ -6,14 +6,19 @@
 
 .qualities {
   &__list {
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    gap: 30px;
+    @media screen and (min-width: 480px) and (max-width: 769px) {
+      text-decoration: none;
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
   }
 
   &__item {
-    width: 270px;
+    @media screen and (min-width: 480px) and (max-width: 769px) {
+      width: 354px;
+    }
   }
 
   &__plate {
