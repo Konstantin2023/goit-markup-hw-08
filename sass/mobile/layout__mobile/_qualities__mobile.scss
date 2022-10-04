@@ -32,9 +32,12 @@
   }
 
   &__acquirement {
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    text-transform: uppercase;
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      font-size: 14px;
+      line-height: calc(16 / 14);
+      text-transform: uppercase;
+      text-align: center;
+    }
   }
 
   &__text {

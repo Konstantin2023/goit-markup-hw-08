@@ -2958,10 +2958,13 @@ header {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.qualities__acquirement {
-  font-size: 14px;
-  line-height: 1.1428571429;
-  text-transform: uppercase;
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .qualities__acquirement {
+    font-size: 14px;
+    line-height: 1.1428571429;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }
 .qualities__text {
   line-height: 1.7142857143;
