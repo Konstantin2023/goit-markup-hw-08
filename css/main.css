@@ -2014,51 +2014,19 @@ header {
   padding-left: 24px;
 }
 
-.qualities {
-  padding-top: 94px;
-}
-
-@media screen and (min-width: 480px) and (max-width: 769px) {
+@media screen and (min-width: 481px) and (max-width: 769px) {
   .qualities__list {
-    text-decoration: none;
-    list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 30px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 769px) {
+@media screen and (min-width: 481px) and (max-width: 769px) {
   .qualities__item {
     width: 354px;
   }
-}
-.qualities__plate {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #f5f4fa;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 120px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
-.qualities__acquirement {
-  font-size: 14px;
-  line-height: 1.1428571429;
-  text-transform: uppercase;
-}
-.qualities__text {
-  line-height: 1.7142857143;
-  color: #757575;
-  margin-top: 10px;
 }
 
 .register-form {
@@ -2920,18 +2888,11 @@ header {
   padding-left: 24px;
 }
 
-.qualities {
-  padding-top: 94px;
-}
-
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .qualities__list {
-    text-decoration: none;
-    list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 30px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2943,33 +2904,11 @@ header {
     width: 450px;
   }
 }
-.qualities__plate {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #f5f4fa;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 120px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .qualities__acquirement {
-    font-size: 14px;
     line-height: 1.1428571429;
-    text-transform: uppercase;
     text-align: center;
   }
-}
-.qualities__text {
-  line-height: 1.7142857143;
-  color: #757575;
-  margin-top: 10px;
 }
 
 .register-form {

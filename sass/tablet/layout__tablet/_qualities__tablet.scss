@@ -1,45 +1,16 @@
 @import '../../utils/vars';
 
 .qualities {
-  padding-top: 94px;
-}
-
-.qualities {
   &__list {
-    @media screen and (min-width: 480px) and (max-width: 769px) {
-      text-decoration: none;
-      list-style: none;
+    @media screen and (min-width: 481px) and (max-width: 769px) {
       display: flex;
-      gap: 30px;
       flex-wrap: wrap;
     }
   }
 
   &__item {
-    @media screen and (min-width: 480px) and (max-width: 769px) {
+    @media screen and (min-width: 481px) and (max-width: 769px) {
       width: 354px;
     }
-  }
-
-  &__plate {
-    display: flex;
-    background-color: $--button-assortment-background-color;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
-    border-radius: 4px;
-    margin-bottom: 30px;
-  }
-
-  &__acquirement {
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    text-transform: uppercase;
-  }
-
-  &__text {
-    line-height: calc(24 / 14);
-    color: $--text-cl2;
-    margin-top: 10px;
   }
 }

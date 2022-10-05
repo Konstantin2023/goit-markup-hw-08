@@ -1,16 +1,9 @@
 @import '../../utils/vars';
 
 .qualities {
-  padding-top: 94px;
-}
-
-.qualities {
   &__list {
     @media screen and (min-width: 0px) and (max-width: 480px) {
-      text-decoration: none;
-      list-style: none;
       display: flex;
-      gap: 30px;
       flex-direction: column;
     }
   }
@@ -21,28 +14,10 @@
     }
   }
 
-  &__plate {
-    display: flex;
-    background-color: $--button-assortment-background-color;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
-    border-radius: 4px;
-    margin-bottom: 30px;
-  }
-
   &__acquirement {
     @media screen and (min-width: 0px) and (max-width: 480px) {
-      font-size: 14px;
       line-height: calc(16 / 14);
-      text-transform: uppercase;
       text-align: center;
     }
-  }
-
-  &__text {
-    line-height: calc(24 / 14);
-    color: $--text-cl2;
-    margin-top: 10px;
   }
 }
