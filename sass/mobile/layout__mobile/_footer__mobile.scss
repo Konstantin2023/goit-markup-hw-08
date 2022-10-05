@@ -21,17 +21,20 @@
       align-items: baseline;
       justify-content: space-between;
       flex-direction: column;
+      align-items: center;
     }
   }
 
   &__logo {
-    font-family: $Raleway;
-    @extend %footer;
-    color: $--brand-color2;
-    text-decoration: none;
-    list-style: none;
-    display: block;
-    margin-bottom: 20px;
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      font-family: $Raleway;
+      color: $--brand-color2;
+      text-decoration: none;
+      list-style: none;
+      display: block;
+      margin-bottom: 20px;
+      align-items: center;
+    }
   }
 
   &__studio {
@@ -57,14 +60,17 @@
   }
 
   &__email {
-    line-height: calc(24 / 14);
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    list-style: none;
-    display: block;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      line-height: calc(24 / 14);
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      list-style: none;
+      display: block;
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      align-items: center;
+    }
   }
 
   &__email:hover,
