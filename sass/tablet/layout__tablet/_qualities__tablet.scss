@@ -1,12 +1,12 @@
 @import '../../utils/vars';
 
 .qualities {
-  &__list {
-    @media screen and (min-width: 481px) and (max-width: 769px) {
-      display: flex;
-      // flex-wrap: wrap;
-    }
-  }
+  // &__list {
+  //   @media screen and (min-width: 481px) and (max-width: 769px) {
+  //     display: flex;
+  //     flex-wrap: wrap;
+  //   }
+  // }
 
   &__item {
     @media screen and (min-width: 481px) and (max-width: 769px) {

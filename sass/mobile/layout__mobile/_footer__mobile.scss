@@ -16,9 +16,12 @@
 
 .footer {
   &__container {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-direction: column;
+    }
   }
 
   &__logo {
