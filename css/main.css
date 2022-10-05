@@ -1838,90 +1838,19 @@ header {
   }
 }
 
-.people__section {
-  background-color: #f5f4fa;
-}
-.people__title {
-  font-size: 36px;
-  line-height: 1.1666666667;
-  text-align: center;
-  margin-bottom: 50px;
-}
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .people__list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    text-decoration: none;
-    list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 30px;
   }
 }
-.people__specialist {
-  background: #ffffff;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.people__wraper {
-  padding-bottom: 30px;
-}
-.people__name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.1875;
-  text-align: center;
-  padding-top: 30px;
-  margin-bottom: 10px;
-}
-.people__profession {
-  font-size: 16px;
-  line-height: 1.1875;
-  text-align: center;
-  color: #757575;
-  margin-bottom: 16px;
-}
-.people__socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 10px;
-}
-.people__network {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #afb1b8;
-  -webkit-transition-property: background-color, color;
-  transition-property: background-color, color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.people__network:focus, .people__network:hover {
-  color: #ffffff;
-  background-color: #2196f3;
-}
-.people__social {
-  fill: currentColor;
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .people__wraper {
+    padding-bottom: 24px;
+  }
 }
 
 .pictures__title {
