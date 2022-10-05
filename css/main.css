@@ -481,6 +481,8 @@ header {
 }
 .clientage__list {
   gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .clientage__link {
   -webkit-box-align: center;
@@ -954,6 +956,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .people__specialist {
   background: #ffffff;
@@ -1141,6 +1145,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .qualities__item {
   width: 270px;
@@ -1840,8 +1846,6 @@ header {
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .people__list {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1968,8 +1972,6 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 769px) {

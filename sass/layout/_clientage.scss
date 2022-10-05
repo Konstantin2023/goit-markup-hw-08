@@ -16,6 +16,7 @@
   &__list {
     @extend %clientage;
     gap: 30px;
+    flex-wrap: wrap;
   }
 
   &__link {
