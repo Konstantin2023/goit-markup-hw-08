@@ -161,10 +161,12 @@ body {
   color: #212121;
 }
 
-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #ececec;
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ececec;
+  }
 }
 
 @media screen and (min-width: 0px) and (max-width: 480px) {
@@ -2507,10 +2509,15 @@ header {
   border-radius: 2px;
 }
 
-.header__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .header__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 .header__logo {
   color: #2196f3;
@@ -2535,14 +2542,43 @@ header {
       -ms-flex-align: center;
           align-items: center;
 }
-.header__contacts, .header__list {
-  gap: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .header__button {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 0;
+    padding: 12px 8px;
+    border: none;
+    background-color: transparent;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 2560px) {
+  .header__button {
+    display: none;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .header__contacts, .header__list {
+    gap: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+            clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 }
 .header__studio {
   font-family: "Roboto";

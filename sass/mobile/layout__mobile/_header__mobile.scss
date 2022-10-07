@@ -37,7 +37,10 @@
 
 .header {
   &__container {
-    display: flex;
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   &__logo {
@@ -60,11 +63,45 @@
     align-items: center;
   }
 
+  &__icon-menu {
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+    }
+  }
+
+  &__button {
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      display: inline-flex;
+      margin: 0;
+      padding: 12px 8px;
+      border: none;
+      background-color: transparent;
+    }
+  }
+
+  &__button {
+    @media screen and (min-width: 481px) and (max-width: 2560px) {
+      display: none;
+    }
+  }
+
   &__contacts,
   &__list {
-    gap: 50px;
-    display: flex;
-    align-items: center;
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      gap: 50px;
+      display: flex;
+      align-items: center;
+
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+    }
   }
 
   &__studio--actively {
