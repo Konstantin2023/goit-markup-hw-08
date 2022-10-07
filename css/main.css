@@ -3191,6 +3191,10 @@ body {
   display: flex;
 }
 
+.mobile-socials__link {
+  margin-right: 10px;
+}
+
 .menu-toggle {
   position: absolute;
   top: 13px;
@@ -3224,6 +3228,7 @@ body {
 .mobile-menu__list {
   text-decoration: none;
   list-style: none;
+  color: #212121;
 }
 
 .mobile-menu__contact {
@@ -3238,6 +3243,25 @@ body {
 }
 
 .mobile-socials__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.mobile-socials__link:nth-last-child(-n+1) {
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.mobile-socials__LinkedIn {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
