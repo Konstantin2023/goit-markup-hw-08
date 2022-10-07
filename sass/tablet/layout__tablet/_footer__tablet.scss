@@ -15,10 +15,20 @@
 }
 
 .footer {
+  &__signup {
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
   &__container {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
   }
 
   &__logo {
@@ -135,7 +145,10 @@
   }
 
   &__support {
-    margin-right: 0;
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
 
   &__emails {

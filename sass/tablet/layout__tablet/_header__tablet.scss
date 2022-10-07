@@ -60,6 +60,12 @@
     align-items: center;
   }
 
+  &__contacts {
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      flex-direction: column;
+    }
+  }
+
   &__contacts,
   &__list {
     gap: 50px;
