@@ -2384,20 +2384,22 @@ header {
 .footer__emails {
   display: inline-block;
 }
-.footer__input {
-  height: 50px;
-  width: 358px;
-  border-radius: 4px;
-  background-color: #2f303a;
-  color: #ffffff;
-  border: 1px solid #757575;
-  padding-left: 16px;
-  font-size: 16px;
-  line-height: 1.25;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .footer__input {
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #2f303a;
+    color: #ffffff;
+    border: 1px solid #757575;
+    padding-left: 16px;
+    font-size: 16px;
+    line-height: 1.25;
+    -webkit-transition-duration: 250ms;
+            transition-duration: 250ms;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 .footer__input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
@@ -2655,7 +2657,7 @@ header {
   .hero__name {
     font-size: 26px;
     line-height: 1.6153846154;
-    width: 100%;
+    width: 320px;
   }
 }
 

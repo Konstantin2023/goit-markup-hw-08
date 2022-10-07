@@ -152,17 +152,19 @@
   }
 
   &__input {
-    height: 50px;
-    width: 358px;
-    border-radius: 4px;
-    background-color: $--brand-color;
-    color: $--text-button-color;
-    border: 1px solid $--text-cl2;
-    padding-left: 16px;
-    font-size: 16px;
-    line-height: calc(20 / 16);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      height: 50px;
+      width: 100%;
+      border-radius: 4px;
+      background-color: $--brand-color;
+      color: $--text-button-color;
+      border: 1px solid $--text-cl2;
+      padding-left: 16px;
+      font-size: 16px;
+      line-height: calc(20 / 16);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
 
   &__input::placeholder {
