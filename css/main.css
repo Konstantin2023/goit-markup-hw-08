@@ -2234,6 +2234,17 @@ header {
 }
 
 @media screen and (min-width: 0px) and (max-width: 480px) {
+  .footer__signup {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 480px) {
   .footer__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2261,9 +2272,11 @@ header {
     list-style: none;
     display: block;
     margin-bottom: 20px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .footer__frame {
+    text-align: center;
   }
 }
 .footer__studio {
@@ -2329,16 +2342,22 @@ header {
   cursor: pointer;
   text-decoration: none;
 }
-.footer__wrapper {
-  padding-bottom: 30px;
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .footer__wrapper {
+    text-align: center;
+    padding-bottom: 30px;
+  }
 }
-.footer__accession {
-  font-weight: 700;
-  line-height: 1.1428571429;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  color: #ffffff;
-  display: block;
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .footer__accession {
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.1428571429;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #ffffff;
+    display: block;
+  }
 }
 .footer__socials {
   display: -webkit-box;
@@ -2378,11 +2397,17 @@ header {
   fill: #ffffff;
   background-color: #2196f3;
 }
-.footer__support {
-  margin-right: 0;
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .footer__support {
+    margin-right: 0;
+    width: 100%;
+  }
 }
-.footer__emails {
-  display: inline-block;
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .footer__emails {
+    margin-bottom: 20px;
+    display: inline-block;
+  }
 }
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .footer__input {
@@ -2420,8 +2445,10 @@ header {
   border: 1px solid #2196f3;
   outline: transparent;
 }
-.footer__submit {
-  margin-left: 12px;
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .footer__submit {
+    margin-left: 0px;
+  }
 }
 .footer__btn {
   -webkit-box-align: center;

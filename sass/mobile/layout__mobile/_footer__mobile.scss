@@ -15,6 +15,12 @@
 }
 
 .footer {
+  &__signup {
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
   &__container {
     @media screen and (min-width: 0px) and (max-width: 480px) {
       display: flex;
@@ -33,7 +39,12 @@
       list-style: none;
       display: block;
       margin-bottom: 20px;
-      align-items: center;
+    }
+  }
+
+  &__frame {
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      text-align: center;
     }
   }
 
@@ -104,16 +115,22 @@
   }
 
   &__wrapper {
-    padding-bottom: 30px;
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      text-align: center;
+      padding-bottom: 30px;
+    }
   }
 
   &__accession {
-    font-weight: 700;
-    line-height: calc(16 / 14);
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    color: $--text-button-color;
-    display: block;
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      text-align: center;
+      font-weight: 700;
+      line-height: calc(16 / 14);
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      color: $--text-button-color;
+      display: block;
+    }
   }
 
   &__socials {
@@ -144,11 +161,17 @@
   }
 
   &__support {
-    margin-right: 0;
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      margin-right: 0;
+      width: 100%;
+    }
   }
 
   &__emails {
-    display: inline-block;
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      margin-bottom: 20px;
+      display: inline-block;
+    }
   }
 
   &__input {
@@ -177,7 +200,9 @@
   }
 
   &__submit {
-    margin-left: 12px;
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      margin-left: 0px;
+    }
   }
 
   &__btn {
