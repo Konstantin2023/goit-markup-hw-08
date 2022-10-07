@@ -2688,11 +2688,19 @@ header {
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 321px) and (max-width: 480px) {
   .hero__name {
     font-size: 26px;
     line-height: 1.6153846154;
     width: 320px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .hero__name {
+    font-size: 26px;
+    line-height: 1.6153846154;
+    width: 100%;
   }
 }
 
@@ -2849,18 +2857,36 @@ header {
   }
 }
 
-.register-form {
-  width: 528px;
-  padding: 40px;
-  background-color: #ffffff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .register-form {
+    width: 450px;
+    padding: 40px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .register-form {
+    width: 95%;
+    padding: 40px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
 }
 
 .register-form__btn {
@@ -3032,14 +3058,27 @@ header {
 .register-form__checkbox:checked + .register-form__icons .register-form__unchecked {
   opacity: 0;
 }
-.register-form__desc {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  font-size: 14px;
-  line-height: 24px;
-  color: #757575;
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .register-form__desc {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    font-size: 11px;
+    line-height: 24px;
+    color: #757575;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .register-form__desc {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    font-size: 11px;
+    line-height: 24px;
+    color: #757575;
+  }
 }
 .register-form__link {
   font-size: 14px;
