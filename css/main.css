@@ -2195,21 +2195,23 @@ header {
 .clientage__list {
   gap: 30px;
 }
-.clientage__link {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  color: #afb1b8;
-  -webkit-transition-property: border-color, color;
-  transition-property: border-color, color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .clientage__link {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 210px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    color: #afb1b8;
+    -webkit-transition-property: border-color, color;
+    transition-property: border-color, color;
+    -webkit-transition-duration: 250ms;
+            transition-duration: 250ms;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 .clientage__link:hover, .clientage__link:focus {
   color: #2196f3;
@@ -2280,6 +2282,7 @@ header {
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .footer__frame {
     text-align: center;
+    margin-bottom: 60px;
   }
 }
 .footer__studio {

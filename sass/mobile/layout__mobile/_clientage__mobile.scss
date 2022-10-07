@@ -19,16 +19,18 @@
   }
 
   &__link {
-    @extend %clientage;
-    align-items: center;
-    width: 170px;
-    height: 92px;
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-    color: #afb1b8;
-    transition-property: border-color, color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      @extend %clientage;
+      align-items: center;
+      width: 210px;
+      height: 92px;
+      border: 1px solid #afb1b8;
+      border-radius: 4px;
+      color: #afb1b8;
+      transition-property: border-color, color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
 
   &__link:hover,
