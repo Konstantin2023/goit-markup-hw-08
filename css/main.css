@@ -2655,7 +2655,7 @@ header {
   .hero__name {
     font-size: 26px;
     line-height: 1.6153846154;
-    width: 360px;
+    width: 100%;
   }
 }
 
@@ -2802,7 +2802,7 @@ header {
 }
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .qualities__item {
-    width: 450px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 480px) {
