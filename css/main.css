@@ -1166,6 +1166,7 @@ body {
 
 .qualities {
   padding-top: 94px;
+  padding-bottom: 0;
 }
 
 .qualities__list {
