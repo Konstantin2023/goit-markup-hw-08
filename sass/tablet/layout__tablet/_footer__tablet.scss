@@ -22,23 +22,26 @@
       align-items: center;
     }
   }
+
   &__container {
     @media screen and (min-width: 481px) and (max-width: 1200px) {
       display: flex;
       align-items: baseline;
-      justify-content: space-between;
       flex-wrap: wrap;
+      justify-content: space-around;
     }
   }
 
   &__logo {
-    font-family: $Raleway;
-    @extend %footer;
-    color: $--brand-color2;
-    text-decoration: none;
-    list-style: none;
-    display: block;
-    margin-bottom: 20px;
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      font-family: $Raleway;
+      color: $--brand-color2;
+      text-decoration: none;
+      list-style: none;
+      display: block;
+      margin-bottom: 20px;
+      text-align: center;
+    }
   }
 
   &__studio {
@@ -64,14 +67,17 @@
   }
 
   &__email {
-    line-height: calc(24 / 14);
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    list-style: none;
-    display: block;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      text-align: center;
+      line-height: calc(24 / 14);
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      list-style: none;
+      display: block;
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
 
   &__email:hover,
@@ -82,19 +88,22 @@
   }
 
   &__tel {
-    font-family: $Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    list-style: none;
-    display: block;
-    transition-property: background-color color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      text-align: center;
+      font-family: $Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: calc(24 / 14);
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      list-style: none;
+      display: block;
+      transition-property: background-color color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
 
   &__tel:hover,
@@ -109,12 +118,15 @@
   }
 
   &__accession {
-    font-weight: 700;
-    line-height: calc(16 / 14);
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    color: $--text-button-color;
-    display: block;
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      text-align: center;
+      font-weight: 700;
+      line-height: calc(16 / 14);
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      color: $--text-button-color;
+      display: block;
+    }
   }
 
   &__socials {
@@ -156,17 +168,20 @@
   }
 
   &__input {
-    height: 50px;
-    width: 358px;
-    border-radius: 4px;
-    background-color: $--brand-color;
-    color: $--text-button-color;
-    border: 1px solid $--text-cl2;
-    padding-left: 16px;
-    font-size: 16px;
-    line-height: calc(20 / 16);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      height: 50px;
+      width: 450px;
+      border-radius: 4px;
+      background-color: $--brand-color;
+      color: $--text-button-color;
+      border: 1px solid $--text-cl2;
+      padding-left: 16px;
+      font-size: 16px;
+      line-height: calc(20 / 16);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      margin-bottom: 20px;
+    }
   }
 
   &__input::placeholder {
@@ -179,7 +194,9 @@
   }
 
   &__submit {
-    margin-left: 12px;
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      margin-left: 0px;
+    }
   }
 
   &__btn {
@@ -191,5 +208,11 @@
     fill: $--text-button-color;
     justify-items: center;
     margin-left: 10px;
+  }
+
+  &__frame {
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      margin-bottom: 60px;
+    }
   }
 }

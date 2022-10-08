@@ -87,7 +87,6 @@
   &__contacts,
   &__list {
     @media screen and (min-width: 0px) and (max-width: 480px) {
-      gap: 50px;
       display: flex;
       align-items: center;
 
@@ -185,7 +184,6 @@
 
   &__contacts {
     display: flex;
-    gap: 50px;
     margin-left: auto;
   }
 

@@ -1,13 +1,15 @@
+@import '../../utils/vars';
+
 .menu-container {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: $--text-button-color;
   transform: translateX(100%);
   transition: transform 400ms;
-  padding: 40px 48px;
+  padding: 48px 40px;
   z-index: 1000;
   display: flex;
   flex-direction: column;
@@ -38,6 +40,14 @@
 
 .mobile-menu {
   margin-bottom: auto;
+}
+
+.mobile-menu__contacts {
+  margin-bottom: auto;
+  margin-bottom: 64px;
+}
+
+.mobile-menu__list {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -46,20 +56,10 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   list-style: none;
-  color: #212121;
+  color: $--text-cl;
 }
 
-.mobile-menu__contacts {
-  margin-bottom: auto;
-}
-
-.mobile-menu__list {
-  text-decoration: none;
-  list-style: none;
-  color: #212121;
-}
-
-.mobile-menu__contact {
+.mobile-menu__phone {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -69,7 +69,19 @@
 
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: $--brand-color2;
+}
+
+.mobile-menu__Email {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  color: $--text-cl2;
 }
 
 .mobile-socials__link {
@@ -83,10 +95,10 @@
 
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: $--brand-color2;
 }
 
-.mobile-socials__link:nth-last-child(-n + 1) {
+.mobile-socials__link {
   padding-right: 10px;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
   transform: rotate(90deg);
@@ -103,5 +115,24 @@
 
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: $--brand-color2;
+}
+
+.mobile-menu__list--active {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: $--brand-color2;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+.mobile-menu__li {
+  margin-bottom: 32px;
 }

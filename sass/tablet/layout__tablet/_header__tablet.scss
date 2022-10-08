@@ -41,18 +41,28 @@
   }
 
   &__logo {
-    @extend %header1;
-    color: $--brand-color2;
-    text-decoration: none;
-    list-style: none;
-    margin-right: 93px;
-    display: flex;
-    align-items: center;
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.03em;
+      color: $--brand-color2;
+      text-decoration: none;
+      list-style: none;
+      margin-right: 93px;
+      display: flex;
+      align-items: center;
+    }
   }
 
   &__span {
-    color: $--text-cl;
-    @extend %header1;
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.03em;
+      color: $--text-cl;
+    }
   }
 
   &__nav {
@@ -63,12 +73,12 @@
   &__contacts {
     @media screen and (min-width: 481px) and (max-width: 1200px) {
       flex-direction: column;
+      gap: 10px;
     }
   }
 
   &__contacts,
   &__list {
-    gap: 50px;
     display: flex;
     align-items: center;
   }
@@ -154,22 +164,24 @@
 
   &__contacts {
     display: flex;
-    gap: 50px;
     margin-left: auto;
   }
 
   &__email {
-    text-decoration: none;
-    font-weight: 500;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
-    color: $--text-cl2;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: calc(14 / 12);
+      letter-spacing: 0.02em;
+      color: $--text-cl2;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
 
   &__email:hover,
@@ -180,7 +192,11 @@
   }
 
   &__envelope {
-    fill: currentColor;
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      width: 16px;
+      height: 12px;
+      fill: currentColor;
+    }
   }
 
   &__envelope:hover,
@@ -189,20 +205,22 @@
   }
 
   &__tel {
-    text-decoration: none;
-    list-style: none;
-    font-family: $Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
-    color: $--text-cl2;
-    display: flex;
-    gap: 10px;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+      text-decoration: none;
+      list-style: none;
+      font-family: $Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: calc(14 / 12);
+      letter-spacing: 0.02em;
+      color: $--text-cl2;
+      display: flex;
+      gap: 10px;
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
 
   &__tel:hover,
