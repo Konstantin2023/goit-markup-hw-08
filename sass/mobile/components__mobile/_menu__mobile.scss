@@ -38,6 +38,13 @@
   background-color: transparent;
 }
 
+.menu-toggle {
+  &:hover,
+  &:focus {
+    fill: $--brand-color2;
+  }
+}
+
 .mobile-menu {
   margin-bottom: auto;
 }

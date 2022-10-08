@@ -3,7 +3,6 @@
 .register-form {
   @media screen and (min-width: 321px) and (max-width: 480px) {
     width: 450px;
-    padding: 40px;
     background-color: $--text-button-color;
     position: absolute;
     top: 50%;
@@ -61,13 +60,16 @@
   }
 
   &__title {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: calc(23 / 20);
-    text-align: center;
-    display: block;
-    color: $--text-cl;
-    margin-bottom: 12px;
+    @media screen and (min-width: 0px) and (max-width: 320px) {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: calc(30 / 20);
+      text-align: center;
+      display: block;
+      color: $--text-cl;
+      margin-bottom: 12px;
+      letter-spacing: 0.03em;
+    }
   }
 
   &__group {
@@ -191,8 +193,8 @@
   &__desc {
     @media screen and (min-width: 321px) and (max-width: 480px) {
       user-select: none;
-      font-size: 11px;
-      line-height: 24px;
+      font-size: 12px;
+      line-height: 14px;
       color: $--text-cl2;
     }
   }
@@ -207,9 +209,11 @@
   }
 
   &__link {
-    font-size: 14px;
-    line-height: 24px;
-    color: $--brand-color2;
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      font-size: 12px;
+      line-height: calc(14 / 12);
+      color: $--brand-color2;
+    }
   }
 
   &__button {
