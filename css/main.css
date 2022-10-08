@@ -2942,6 +2942,34 @@ body {
   }
 }
 
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .ihor_demyanenko {
+    width: 95%;
+    height: 95%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .olga_repina {
+    width: 95%;
+    height: 95%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .mykola_tarasov {
+    width: 95%;
+    height: 95%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .mykhailo_yermakov {
+    width: 95%;
+    height: 95%;
+  }
+}
+
 .pictures__title {
   font-size: 36px;
   line-height: 1.1666666667;
