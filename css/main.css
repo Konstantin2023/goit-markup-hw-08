@@ -2363,6 +2363,11 @@ body {
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .clientage__link {
+    width: 130px;
+  }
+}
 .clientage__link:hover, .clientage__link:focus {
   color: #2196f3;
   border-color: #2196f3;
@@ -3245,6 +3250,12 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .register-form__icons {
+    width: 40px;
+    height: 40px;
+  }
+}
 .register-form__message {
   display: block;
   height: 120px;
@@ -3435,6 +3446,12 @@ body {
   color: #2196f3;
 }
 
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .mobile-menu__phone {
+    font-size: 24px;
+  }
+}
+
 .mobile-menu__Email {
   font-family: "Roboto";
   font-style: normal;
@@ -3458,6 +3475,12 @@ body {
   color: #2196f3;
 }
 
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .mobile-socials__link {
+    font-size: 12px;
+  }
+}
+
 .mobile-socials__link {
   padding-right: 10px;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
@@ -3475,6 +3498,12 @@ body {
   list-style: none;
   letter-spacing: 0.02em;
   color: #2196f3;
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .mobile-socials__LinkedIn {
+    font-size: 12px;
+  }
 }
 
 .mobile-menu__list--active {

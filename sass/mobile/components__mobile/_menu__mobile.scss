@@ -79,6 +79,12 @@
   color: $--brand-color2;
 }
 
+.mobile-menu__phone {
+  @media screen and (min-width: 0px) and (max-width: 320px) {
+    font-size: 24px;
+  }
+}
+
 .mobile-menu__Email {
   font-family: 'Roboto';
   font-style: normal;
@@ -106,6 +112,12 @@
 }
 
 .mobile-socials__link {
+  @media screen and (min-width: 0px) and (max-width: 320px) {
+    font-size: 12px;
+  }
+}
+
+.mobile-socials__link {
   padding-right: 10px;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
   transform: rotate(90deg);
@@ -123,6 +135,12 @@
   letter-spacing: 0.02em;
 
   color: $--brand-color2;
+}
+
+.mobile-socials__LinkedIn {
+  @media screen and (min-width: 0px) and (max-width: 320px) {
+    font-size: 12px;
+  }
 }
 
 .mobile-menu__list--active {

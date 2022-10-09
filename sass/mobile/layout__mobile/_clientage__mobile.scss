@@ -20,7 +20,6 @@
 
   &__link {
     @media screen and (min-width: 0px) and (max-width: 480px) {
-      @extend %clientage;
       align-items: center;
       width: 210px;
       height: 92px;
@@ -30,6 +29,12 @@
       transition-property: border-color, color;
       transition-duration: 250ms;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+
+  &__link {
+    @media screen and (min-width: 0px) and (max-width: 320px) {
+      width: 130px;
     }
   }
 

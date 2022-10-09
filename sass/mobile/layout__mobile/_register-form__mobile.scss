@@ -138,6 +138,13 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
+  &__icons {
+    @media screen and (min-width: 0px) and (max-width: 320px) {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
   &__message {
     display: block;
     height: 120px;
