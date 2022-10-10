@@ -138,7 +138,10 @@
             <li>
               <div class="pictures__boxes">
                 <picture>
-                  <source srcset="./pictures/desktop@2x.jpg" media="(min-width: 1200px)" />
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="../pictures/desktop@1x.jpg 1x, ../pictures/desktop@2x.jpg 2x"
+                  />
                   <img
                     src="./images/img1.jpg"
                     alt="Програмування за планшетом"
@@ -154,7 +157,10 @@
             <li>
               <div class="pictures__boxes">
                 <picture>
-                  <source srcset="./pictures/mobile@2x.jpg" media="(min-width: 1200px)" />
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="../pictures/mobile@1x.jpg 1x, ../pictures/mobile@2x.jpg 2x"
+                  />
                   <img
                     src="./images/img2.jpg"
                     alt="Програмування за комп'ютером"
@@ -170,7 +176,10 @@
             <li>
               <div class="pictures__boxes">
                 <picture>
-                  <source srcset="./pictures/design@2x.jpg" media="(min-width: 1200px)" />
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="../pictures/design@1x.jpg 1x, ../pictures/design@2x.jpg 2x"
+                  />
                   <img
                     src="./images/img3.jpg"
                     alt="Програмування за планшетом, вибір кольорів"
@@ -194,9 +203,27 @@
             <li class="people__specialist">
               <div class="people__wraper">
                 <picture>
-                  <source srcset="./pictures/ihor_demyanenko.jpg" media="(min-width: 1200px)" />
-                  <source srcset="./pictures/ihor_demyanenko-t.jpg" media="(min-width: 768px)" />
-                  <source srcset="./pictures/ihor_demyanenko-m.jpg" media="(min-width: 480px)" />
+                  <source
+                    srcset="
+                      ./pictures/img_lg-ihor_demyanenko@1x 1x,
+                      ./pictures/img_lg-ihor_demyanenko@2x 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./pictures/img_md-ihor_demyanenko@1x 1x,
+                      ./pictures/img_md-ihor_demyanenko@2x 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./pictures/img_sm-ihor_demyanenko@1x 1x,
+                      ./pictures/img_sm-ihor_demyanenko@2x 2x
+                    "
+                    media="(min-width: 0px)"
+                  />
                   <img
                     class="ihor_demyanenko"
                     src="./images/ihor_demyanenko.jpg"
@@ -253,9 +280,27 @@
             <li class="people__specialist">
               <div class="people__wraper">
                 <picture>
-                  <source srcset="./pictures/olga_repina.jpg" media="(min-width: 1200px)" />
-                  <source srcset="./pictures/olga_repina-t.jpg" media="(min-width: 768px)" />
-                  <source srcset="./pictures/olga_repina-m.jpg" media="(min-width: 480px)" />
+                  <source
+                    srcset="
+                      ./pictures/img_lg-olga_repina@1x 1x,
+                      ./pictures/img_lg-olga_repina@2x 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./pictures/img_md-olga_repina@1x 1x,
+                      ./pictures/img_md-olga_repina@2x 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./pictures/img_sm-olga_repina@1x 1x,
+                      ./pictures/img_sm-olga_repina@2x 2x
+                    "
+                    media="(min-width: 0px)"
+                  />
                   <img class="olga_repina" src="./images/olga_repina.jpg" alt="Фото Ольга Рєпіна" />
                 </picture>
                 <h3 class="people__name">Ольга Рєпіна</h3>
@@ -307,9 +352,27 @@
             <li class="people__specialist">
               <div class="people__wraper">
                 <picture>
-                  <source srcset="./pictures/mykola_tarasov.jpg" media="(min-width: 1200px)" />
-                  <source srcset="./pictures/mykola_tarasov-t.jpg" media="(min-width: 768px)" />
-                  <source srcset="./pictures/mykola_tarasov-m.jpg" media="(min-width: 480px)" />
+                  <source
+                    srcset="
+                      ./pictures/img_lg-mykola_tarasov@1x 1x,
+                      ./pictures/img_lg-mykola_tarasov@2x 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./pictures/img_md-mykola_tarasov@1x 1x,
+                      ./pictures/img_md-mykola_tarasov@2x 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./pictures/img_sm-mykola_tarasov@1x 1x,
+                      ./pictures/img_sm-mykola_tarasov@2x 2x
+                    "
+                    media="(min-width: 0px)"
+                  />
                   <img
                     class="mykola_tarasov"
                     src="./images/mykola_tarasov.jpg"
@@ -365,9 +428,27 @@
             <li class="people__specialist">
               <div class="people__wraper">
                 <picture>
-                  <source srcset="./pictures/mykhailo_yermakov.jpg" media="(min-width: 1200px)" />
-                  <source srcset="./pictures/mykhailo_yermakov-t.jpg" media="(min-width: 768px)" />
-                  <source srcset="./pictures/mykhailo_yermakov-m.jpg" media="(min-width: 480px)" />
+                  <source
+                    srcset="
+                      ./pictures/img_lg-mykhailo_yermakov@1x 1x,
+                      ./pictures/img_lg-mykhailo_yermakov@1x 1x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./pictures/img_md-mykhailo_yermakov@1x 1x,
+                      ./pictures/img_md-mykhailo_yermakov@1x 1x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./pictures/img_sm-mykhailo_yermakov@1x 1x,
+                      ./pictures/img_sm-mykhailo_yermakov@1x 1x
+                    "
+                    media="(min-width: 0px)"
+                  />
                   <img
                     class="mykhailo_yermakov"
                     src="./images/mykhailo_yermakov.jpg"
