@@ -3142,7 +3142,7 @@ body {
 @media screen and (min-width: 0px) and (max-width: 320px) {
   .register-form {
     width: 95%;
-    padding: 20px;
+    padding: 10px 20px;
     background-color: #ffffff;
     position: absolute;
     top: 50%;
