@@ -15,9 +15,9 @@
   background-size: cover;
 
   @media screen and (min-width: 0px) and (max-width: 480px),
-    (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+    (min-device-pixel-ratio: 1),
+    (min-resolution: 96dpi),
+    (min-resolution: 1dppx) {
     background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)),
       url('../pictures/img_sm-@1x.jpg');
   }
@@ -31,9 +31,9 @@
   }
 
   @media screen and (min-width: 481px) and (max-width: 1199px),
-    (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+    (min-device-pixel-ratio: 1),
+    (min-resolution: 96dpi),
+    (min-resolution: 1dppx) {
     background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)),
       url('../pictures/img_md-@1x.jpg');
   }
@@ -47,9 +47,9 @@
   }
 
   @media screen and (min-width: 1200px) and (max-width: 2560px),
-    (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+    (min-device-pixel-ratio: 1),
+    (min-resolution: 96dpi),
+    (min-resolution: 1dppx) {
     background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)),
       url('../pictures/lg-@1x.jpg');
   }
