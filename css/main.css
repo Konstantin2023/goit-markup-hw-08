@@ -3124,7 +3124,7 @@ body {
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
   .register-form {
     width: 450px;
     background-color: #ffffff;
@@ -3139,7 +3139,7 @@ body {
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 320px) {
+@media screen and (min-width: 0px) and (max-width: 479px) {
   .register-form {
     width: 95%;
     padding-left: 20px;
