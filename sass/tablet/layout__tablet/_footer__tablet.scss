@@ -114,10 +114,6 @@
     text-decoration: none;
   }
 
-  &__wrapper {
-    padding-bottom: 30px;
-  }
-
   &__accession {
     @media screen and (min-width: 481px) and (max-width: 1200px) {
       text-align: center;
@@ -213,7 +209,6 @@
 
   &__frame {
     @media screen and (min-width: 481px) and (max-width: 1200px) {
-      margin-bottom: 60px;
     }
   }
 }
