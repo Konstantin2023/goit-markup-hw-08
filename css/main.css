@@ -2973,7 +2973,7 @@ body {
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
   .mykhailo_yermakov {
     width: 100%;
     height: 100%;
