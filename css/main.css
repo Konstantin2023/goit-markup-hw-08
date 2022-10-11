@@ -2952,21 +2952,21 @@ body {
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
   .ihor_demyanenko {
     width: 100%;
     height: 100%;
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
   .olga_repina {
     width: 100%;
     height: 100%;
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
   .mykola_tarasov {
     width: 100%;
     height: 100%;
