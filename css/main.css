@@ -1209,6 +1209,9 @@ body {
   gap: 30px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .qualities__plate {
   display: -webkit-box;
@@ -3097,11 +3100,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-}
-@media screen and (min-width: 0px) and (max-width: 767px) {
-  .qualities__item {
-    width: 100%;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 480px) {
