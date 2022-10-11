@@ -20,7 +20,7 @@
   }
 
   &__item {
-    width: 270px;
+    width: calc((100% - 30) / 2);
   }
 
   &__plate {
