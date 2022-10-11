@@ -2,16 +2,10 @@
 
 .qualities {
   &__list {
-    @media screen and (min-width: 481px) and (max-width: 769px) {
+    @media screen and (min-width: 481px) and (max-width: 1199px) {
       display: flex;
 
       justify-content: center;
-    }
-  }
-
-  &__item {
-    @media screen and (min-width: 481px) and (max-width: 769px) {
-      width: 354px;
     }
   }
 }

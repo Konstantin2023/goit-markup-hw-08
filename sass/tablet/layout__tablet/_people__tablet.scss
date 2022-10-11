@@ -2,7 +2,7 @@
 
 .people {
   &__list {
-    @media screen and (min-width: 481px) and (max-width: 768px) {
+    @media screen and (min-width: 481px) and (max-width: 1199px) {
       // flex-wrap: wrap;
       display: flex;
       justify-content: center;
@@ -10,35 +10,35 @@
   }
 
   &__wraper {
-    @media screen and (min-width: 481px) and (max-width: 768px) {
+    @media screen and (min-width: 481px) and (max-width: 1199px) {
       padding-bottom: 24px;
     }
   }
 }
 
 .ihor_demyanenko {
-  @media screen and (min-width: 481px) and (max-width: 768px) {
+  @media screen and (min-width: 481px) and (max-width: 1199px) {
     width: 354px;
     height: 374px;
   }
 }
 
 .olga_repina {
-  @media screen and (min-width: 481px) and (max-width: 768px) {
+  @media screen and (min-width: 481px) and (max-width: 1199px) {
     width: 354px;
     height: 374px;
   }
 }
 
 .mykola_tarasov {
-  @media screen and (min-width: 481px) and (max-width: 768px) {
+  @media screen and (min-width: 481px) and (max-width: 1199px) {
     width: 354px;
     height: 374px;
   }
 }
 
 .mykhailo_yermakov {
-  @media screen and (min-width: 481px) and (max-width: 768px) {
+  @media screen and (min-width: 481px) and (max-width: 1199px) {
     width: 354px;
     height: 374px;
   }

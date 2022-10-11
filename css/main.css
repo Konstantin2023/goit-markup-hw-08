@@ -927,38 +927,38 @@ body {
 }
 @media screen and (min-width: 0px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(49, 48, 58, 0.4)), to(rgba(49, 48, 58, 0.4))), url("./pictures/img_sm-@1x.jpg");
-    background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)), url("./pictures/img_sm-@1x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(49, 48, 58, 0.4)), to(rgba(49, 48, 58, 0.4))), url("../pictures/img_sm-@1x.jpg");
+    background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)), url("../pictures/img_sm-@1x.jpg");
   }
 }
 @media screen and (min-width: 0px) and (min-device-pixel-ratio: 2), screen and (min-width: 0px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 0px) and (min-resolution: 192dpi), screen and (min-width: 0px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(49, 48, 58, 0.4)), to(rgba(49, 48, 58, 0.4))), url("./pictures/img_sm-@2x.jpg");
-    background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)), url("./pictures/img_sm-@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(49, 48, 58, 0.4)), to(rgba(49, 48, 58, 0.4))), url("../pictures/img_sm-@2x.jpg");
+    background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)), url("../pictures/img_sm-@2x.jpg");
   }
 }
 @media screen and (min-width: 480px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(49, 48, 58, 0.4)), to(rgba(49, 48, 58, 0.4))), url("./pictures/img_md-@1x.jpg");
-    background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)), url("./pictures/img_md-@1x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(49, 48, 58, 0.4)), to(rgba(49, 48, 58, 0.4))), url("../pictures/img_md-@1x.jpg");
+    background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)), url("../pictures/img_md-@1x.jpg");
   }
 }
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(49, 48, 58, 0.4)), to(rgba(49, 48, 58, 0.4))), url("./pictures/img_md-@2x.jpg");
-    background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)), url("./pictures/img_md-@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(49, 48, 58, 0.4)), to(rgba(49, 48, 58, 0.4))), url("../pictures/img_md-@2x.jpg");
+    background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)), url("../pictures/img_md-@2x.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(49, 48, 58, 0.4)), to(rgba(49, 48, 58, 0.4))), url("./pictures/lg-@1x.jpg");
-    background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)), url("./pictures/lg-@1x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(49, 48, 58, 0.4)), to(rgba(49, 48, 58, 0.4))), url("../pictures/lg-@1x.jpg");
+    background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)), url("../pictures/lg-@1x.jpg");
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(49, 48, 58, 0.4)), to(rgba(49, 48, 58, 0.4))), url("./pictures/lg-@2x.jpg");
-    background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)), url("./pictures/lg-@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(49, 48, 58, 0.4)), to(rgba(49, 48, 58, 0.4))), url("../pictures/lg-@2x.jpg");
+    background-image: linear-gradient(to right, rgba(49, 48, 58, 0.4), rgba(49, 48, 58, 0.4)), url("../pictures/lg-@2x.jpg");
   }
 }
 
@@ -1202,7 +1202,6 @@ body {
 }
 
 .qualities__list {
-  text-decoration: none;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1982,7 +1981,7 @@ body {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 1199px) {
   .people__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1992,34 +1991,34 @@ body {
             justify-content: center;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 1199px) {
   .people__wraper {
     padding-bottom: 24px;
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 1199px) {
   .ihor_demyanenko {
     width: 354px;
     height: 374px;
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 1199px) {
   .olga_repina {
     width: 354px;
     height: 374px;
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 1199px) {
   .mykola_tarasov {
     width: 354px;
     height: 374px;
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 1199px) {
   .mykhailo_yermakov {
     width: 354px;
     height: 374px;
@@ -2136,7 +2135,7 @@ body {
   padding-left: 24px;
 }
 
-@media screen and (min-width: 481px) and (max-width: 769px) {
+@media screen and (min-width: 481px) and (max-width: 1199px) {
   .qualities__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2144,11 +2143,6 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-}
-@media screen and (min-width: 481px) and (max-width: 769px) {
-  .qualities__item {
-    width: 354px;
   }
 }
 
@@ -2740,7 +2734,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
   .header__button {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -2751,12 +2745,12 @@ body {
     background-color: transparent;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 2560px) {
+@media screen and (min-width: 768px) and (max-width: 2560px) {
   .header__button {
     display: none;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
   .header__contacts, .header__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2941,62 +2935,41 @@ body {
             flex-direction: column;
   }
 }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .people__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .people__wraper {
     padding-bottom: 24px;
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
   .ihor_demyanenko {
     width: 100%;
     height: 100%;
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
   .olga_repina {
     width: 100%;
     height: 100%;
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
   .mykola_tarasov {
     width: 100%;
     height: 100%;
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
-  .mykhailo_yermakov {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-@media screen and (min-width: 0px) and (max-width: 320px) {
-  .ihor_demyanenko {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-@media screen and (min-width: 0px) and (max-width: 320px) {
-  .olga_repina {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-@media screen and (min-width: 0px) and (max-width: 320px) {
-  .mykola_tarasov {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-@media screen and (min-width: 0px) and (max-width: 320px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
   .mykhailo_yermakov {
     width: 100%;
     height: 100%;
@@ -3124,7 +3097,7 @@ body {
             flex-direction: column;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
   .qualities__item {
     width: 100%;
   }

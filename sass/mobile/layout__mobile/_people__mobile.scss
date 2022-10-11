@@ -11,6 +11,12 @@
     }
   }
 
+  &__list {
+    @media screen and (min-width: 480px) and (max-width: 768px) {
+      justify-content: center;
+    }
+  }
+
   &__wraper {
     @media screen and (min-width: 0px) and (max-width: 480px) {
       padding-bottom: 24px;
@@ -19,56 +25,28 @@
 }
 
 .ihor_demyanenko {
-  @media screen and (min-width: 0px) and (max-width: 480px) {
+  @media screen and (min-width: 0px) and (max-width: 768px) {
     width: 100%;
     height: 100%;
   }
 }
 
 .olga_repina {
-  @media screen and (min-width: 0px) and (max-width: 480px) {
+  @media screen and (min-width: 0px) and (max-width: 768px) {
     width: 100%;
     height: 100%;
   }
 }
 
 .mykola_tarasov {
-  @media screen and (min-width: 0px) and (max-width: 480px) {
+  @media screen and (min-width: 0px) and (max-width: 768px) {
     width: 100%;
     height: 100%;
   }
 }
 
 .mykhailo_yermakov {
-  @media screen and (min-width: 0px) and (max-width: 480px) {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.ihor_demyanenko {
-  @media screen and (min-width: 0px) and (max-width: 320px) {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.olga_repina {
-  @media screen and (min-width: 0px) and (max-width: 320px) {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.mykola_tarasov {
-  @media screen and (min-width: 0px) and (max-width: 320px) {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.mykhailo_yermakov {
-  @media screen and (min-width: 0px) and (max-width: 320px) {
+  @media screen and (min-width: 0px) and (max-width: 768px) {
     width: 100%;
     height: 100%;
   }
