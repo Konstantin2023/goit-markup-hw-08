@@ -4,7 +4,7 @@
   &__list {
     @media screen and (min-width: 481px) and (max-width: 1199px) {
       display: flex;
-
+      flex-wrap: wrap;
       justify-content: center;
     }
   }
