@@ -1210,9 +1210,6 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.qualities__item {
-  width: 270px;
-}
 .qualities__plate {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3102,7 +3099,7 @@ body {
             flex-direction: column;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 479px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
   .qualities__item {
     width: 100%;
   }
